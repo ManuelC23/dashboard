@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro:wght@200&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="60px">
+                    <path fill="#FFFFFF"
+                        d="M8,3A2,2 0 0,0 6,5V9A2,2 0 0,1 4,11H3V13H4A2,2 0 0,1 6,15V19A2,2 0 0,0 8,21H10V19H8V14A2,2 0 0,0 6,12A2,2 0 0,0 8,10V5H10V3M16,3A2,2 0 0,1 18,5V9A2,2 0 0,0 20,11H21V13H20A2,2 0 0,0 18,15V19A2,2 0 0,1 16,21H14V19H16V14A2,2 0 0,1 18,12A2,2 0 0,1 16,10V5H14V3H16Z" />
+                </svg>
+                <h1>Dashboard</h1>
+            </div>
+            <ul class="main-links">
+                <li>
+                    <a href="#">
+                        <img src="./img/home.svg" alt="Home button icon" width="40px">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/profile.svg" alt="Profile button icon" width="40px">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/messages.svg" alt="Messages button icon" width="40px">
+                        <span>Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/history.svg" alt="History button image" width="40px">
+                        <span>History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/tasks.svg" alt="Tasks button image" width="40px">
+                        <span>Tasks</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/community.svg" alt="Communities button image" width="40px">
+                        <span>Communities</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="settings-links">
+                <li>
+                    <a href="#">
+                        <img src="./img/settings.svg" alt="Settings button icon" width="40px">
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/support.svg" alt="Support button icon" width="40px">
+                        <span>Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/privacy.svg" alt="Privacy button icon" width="40px">
+                        <span>Privacy</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header">
+            <div class="search-profile">
+                <div class="searchbar">
+                    <form action="/" method="get">
+                        <button type="submit" class="search-button">
+                            <img src="./img/search.svg" alt="Search button icon" width="30px">
+                        </button>
+                        <input type="text" id="search" name="q" class="search-input">
+                    </form>
+                </div>
+                <div class="profile">
+                    <img src="./img/notification.svg" alt="Notification icon" width="30px">
+                    <div class="profile-picture">
+                    </div>
+                    <h3>Mike Wazowski</h3>
+                </div>
+            </div>
+            <div class="info-interact">
+                <div class="profile-info">
+                    <div class="profile-picture"></div>
+                    <div class="profile-text">
+                        <h5>Hi there,</h5>
+                        <h3>Mike Wazowski (@Wazowski)</h3>
+                    </div>
+                    <div class="interact-buttons">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eveniet provident!
+                            Voluptatibus eum recusandae magnam hic qui, provident facilis, necessitatibus amet,
+                            aspernatur assumenda delectus atque aliquam commodi dolorem aut voluptatem.</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem eum non voluptate mollitia
+                            illum quae accusantium! Quidem numquam hic ipsum sunt. Sit obcaecati id esse quae quis hic
+                            totam.</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi explicabo culpa facilis
+                            harum beatae voluptatem. Velit consectetur ipsa delectus perferendis expedita reiciendis,
+                            voluptates officia, quibusdam excepturi quod iusto! Autem, earum.</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus animi nihil recusandae
+                            expedita dolore ullam id culpa error architecto. Eligendi est nisi ullam dolore similique
+                            dolor dicta deleniti ducimus ipsam.</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, temporibus. Rerum cum nobis
+                            veritatis ab omnis sed repudiandae modi molestias obcaecati quia amet rem id repellat
+                            cumque, iste similique adipisci.</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, fuga! Quisquam corporis
+                            dolores nemo nulla consectetur esse laborum sapiente sequi, error modi quo, earum tenetur
+                            assumenda? Animi nostrum voluptatibus perspiciatis?</p>
+                        <div class="card-buttons">
+                            <a href="#"><img src="./img/add_favorite.svg" width="30px"></a>
+                            <a href="#"><img src="./img/view.svg" width="30px"></a>
+                            <a href="#"><img src="./img/share.svg" width="30px"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-info">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div class="info-card">
+                        <h5>Site Maintenance</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ea earum facere officia
+                            recusandae cupiditate beatae laboriosam quo. Nostrum aut velit a, dolorem voluptatum laborum
+                            sed ea iusto praesentium nam?</p>
+                        <hr>
+                        <h5>Community Share Day</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione amet veniam id iure
+                            similique nesciunt itaque ea et fugit, error corporis atque voluptate adipisci explicabo
+                            sit, aliquid libero eos commodi!</p>
+                        <hr>
+                        <h5>Updated Privacy Policy</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur et distinctio.
+                            Ipsa voluptatem perspiciatis, necessitatibus quasi obcaecati accusantium consequuntur,
+                            expedita adipisci aspernatur ad possimus, id porro nobis tempora repudiandae!</p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <div class="info-card">
+                        <div class="profile-card">
+                            <div class="profile-picture" id="first">
+                            </div>
+                            <div class="profile-info">
+                                <h4>@Sullivan</h4>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="profile-card">
+                            <div class="profile-picture" id="second">
+                            </div>
+                            <div class="profile-info">
+                                <h4>@Woody</h4>
+                                <p>Famous Cowboy</p>
+                            </div>
+                        </div>
+                        <div class="profile-card">
+                            <div class="profile-picture" id="third">
+                            </div>
+                            <div class="profile-info">
+                                <h4>@Buzz</h4>
+                                <p>Space guardian</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
